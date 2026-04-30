@@ -39,9 +39,9 @@
   color: white;
   display: flex;
   padding: 20px 24px;
-  flex-direction: ???;
+  flex-direction: column;
   gap: 4px;
-  justify-content: ???;
+  justify-content: flex-start;
 }
 
 .header-title {
@@ -63,8 +63,8 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
-  flex-direction: ???;
-  justify-content: ???;
+  flex-direction: row;
+  justify-content: space-around;
   padding: 10px 24px;
   gap: 20px;
 }
@@ -87,7 +87,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: ???;
+  flex-direction:row ;
 }
 
 .hero-title {
@@ -114,6 +114,10 @@
   gap: 16px;
   padding: 20px;
   background-color: #f1efe8;
+  display: flex;
+  flex: 1;
+
+  
 }
 
 
@@ -130,41 +134,41 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: ???;
-  gap: 10px;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .sidebar-heading {
   color: #1a1a2e;
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: 500;
-  border-bottom: 0.5px solid #D3D1C7;
-  padding-bottom: 8px;
+  border-bottom: 0.005rem solid #D3D1C7;
+  padding-bottom: 0.8rem;
 }
 
 .sidebar-detail {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0.1rem;
 }
 
 .detail-label {
   color: #1a1a2e;
-  font-size: 11px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .detail-value {
   color: #5F5E5A;
-  font-size: 11px;
+  font-size: 1rem;
 }
 
 .sidebar-tag {
   background-color: #EEEDFE;
   color: #534AB7;
-  border-radius: 4px;
-  padding: 5px 10px;
-  font-size: 12px;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.8rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -178,8 +182,10 @@
 
 .images {
   display: flex;
-  flex-direction: ???;
-  gap: 12px;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+
 }
 
 
@@ -190,12 +196,12 @@
 
 .photo {
   background-color: #D3D1C7;
-  border-radius: 6px;
-  padding: 40px 20px;
-  font-size: 13px;
+  border-radius: 0.5rem;
+  padding: 3rem 2rem;
+  font-size: 1rem;
   color: #5F5E5A;
   text-align: center;
-  flex: ???;
+  flex: 1;
 }
 
 
@@ -206,20 +212,20 @@
 
 .footer {
   background-color: #1a1a2e;
-  padding: 12px 24px;
+  padding: 1rem 2rem;
   display: flex;
-  justify-content: ???;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
 .footer-text {
   color: #9FE1CB;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .footer-link {
   color: #AFA9EC;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 
